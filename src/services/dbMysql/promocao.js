@@ -2,10 +2,10 @@
 
 const mysql = require("mysql");
 
-const host = process.env.DB_HOST || "mysql472.umbler.com";
-const user = process.env.DB_USER || "mateus";
-const pass = process.env.DB_PASS || "mateusRoot";
-const name = process.env.DB_NAME || "apinodejs";
+const host = process.env.DB_HOST || "*******";
+const user = process.env.DB_USER || "*******";
+const pass = process.env.DB_PASS || "*******";
+const name = process.env.DB_NAME || "*******";
 const port = 41890;
 
 const db = {};
